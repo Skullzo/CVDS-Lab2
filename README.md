@@ -109,3 +109,58 @@ Este es el resultado final del codigo en App.Java
 Para obtener el resultado de nombre y apellido, se manda el argumento entre comillas simples para evitar que se tome como dos argumentos
 
 <img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PruebaHelloNombreApellido.PNG">
+
+
+## Hacer el esqueleto de la aplicación
+
+Como nos indica el laboratorio creamos los dos paquetes .shapes y .shapes.concrete
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PaquetesIniciales.PNG">
+
+A su vez creamos la interfaz necesaria
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/Interfaz1.PNG">
+
+Y la enumeracion con los parametros Triangle, Quadrilateral, Pentagon, Hexagon
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/Enumeracion.PNG">
+
+Se crearon las cuatro clases estipuladas en la enumeracion
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/ClasesNecesarias.PNG">
+
+Y su clase Main para el manejo del programa
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/MainShape.PNG">
+
+El paso que seguia era utilizar el patron fabrica y el switch-case para crear Shape Factory, esto con el fin de eliminar un acoplamiento directo de la clase main con otras
+
+En switch-case, se puede tener de dos formas, creando un nuevo objeto dentro de cada caso, o haciendo lo que se muestra en la imagen donde es necesario un break, para que el codigo no tome siempre el valor de Hexagon
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/ShapeFactory.PNG">
+
+El siguiente y ultimo paso del laboratorio era ejecutar la clase ShapeMain usando el plugin exec de Maven para obtener resultados
+
+### Primera ejecucion
+
+La primera ejecucion es sin parametros, al realizar la ejecucion observamos que el main pedia argumentos necesariamente para poder funcionar
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/ShapeNoParam.PNG">
+
+### Segunda ejecucion
+
+La segunda ejecución es con la cadena "qwerty", al realizar la ejecucion observamos que el parametro no es un parametro valido dentro de la enumeracion, el cual los rechaza
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/ShapeQwerty.PNG">
+
+### Tercera ejecucion
+
+La tercera ejecucion es con la cadena "pentagon", al realizar la ejecucion observamos que el parametro no es un parametro valido, aun existiendo un parametro Pentagon dentro de las enumeraciones que tenemos; esto es causado por que Java es sensible a las mayusculas y minusculas dentro de sus parametros
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/Shapepentagon.PNG">
+
+### Cuarta ejecucion
+
+La ultima ejecución es la única que sirve dentro de las cuatro, dado que cumplet todos los requisitos para el uso.
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/ShapeHexagon.PNG">

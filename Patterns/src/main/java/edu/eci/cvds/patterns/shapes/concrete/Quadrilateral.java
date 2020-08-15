@@ -1,5 +1,9 @@
 package edu.eci.cvds.patterns.shapes.concrete;
 
-public class Quadrilateral {
+import edu.eci.cvds.patterns.shapes.Shape;
 
+public class Quadrilateral implements Shape {
+    public int getNumberOfEdges() {
+        return 4;
+    }
 }

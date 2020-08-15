@@ -9,7 +9,7 @@ public class ShapeMain {
         }
         try {
             RegularShapeType type = RegularShapeType.valueOf(args[0]);
-            //Shape shape = ShapeFactory.create(type);            
+            Shape shape = ShapeFactory.create(type);            
             System.out.println(String.format("Successfully created a %s with %s sides.", type, shape.getNumberOfEdges()));
 
         } catch (IllegalArgumentException ex) {
