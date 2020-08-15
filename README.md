@@ -106,6 +106,6 @@ Este es el resultado final del codigo en App.Java
 
 <img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/CodigoFinalAppJava.PNG">
 
-Para obtener el resultado de nombre y apellido
+Para obtener el resultado de nombre y apellido, se manda el argumento entre comillas simples para evitar que se tome como dos argumentos
 
 <img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PruebaHelloNombreApellido.PNG">
