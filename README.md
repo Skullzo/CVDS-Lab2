@@ -1,6 +1,6 @@
 # Laboratorio 2
 
-## Preguntas laboratorio
+## Preguntas del laboratorio
 
 ### 1. ¿Cuál es su mayor utilidad?
 
@@ -33,13 +33,13 @@ Hay tres ciclos de vida de compilación integrados: ```default```, ```clean``` y
 
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
-### 4. Para que sirven los plugins en Maven
+### 4. ¿Para qué sirven los plugins en Maven?
 
 Es donde se realiza parte de la "acción real", los plugins se utilizan para: crear archivos jar, crear archivos war, compilar código, código de prueba unitaria, crear documentación del proyecto, y así sucesivamente. Casi cualquier acción que pueda pensar en realizar en un proyecto se implementa como un complemento de Maven.
 
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-plugins.html#:~:text=In%20other%20words%2C%20plugins%20are,implemented%20as%20a%20Maven%20plugin.)
 
-### 5. Qué es y para qué sirve el repositorio Maven Central
+### 5. ¿Qué es y para qué sirve el repositorio Maven Central
 
 Son cientos o quizás miles de librerías que podemos utilizar para múltiples propósitos y Maven se encarga de aprovechar los recursos que ya existen de la mejor forma para lograr los objetivos propuestos.
 Es un repositorio que contiene **cientos de librerías constantemente actualizadas** por sus creadores y sirve para que todos los usuarios  puedan buscar versiones recientes o antiguas de un códido dado y agregarlas a su proyecto de manera autómatica (sin que el usuario tenga que hacer más que definir sus dependencias).
