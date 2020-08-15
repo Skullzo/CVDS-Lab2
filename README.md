@@ -5,22 +5,22 @@ Laboratorio 2 de la materia CVDS
 
 ### 1. ¿Cuál es su mayor utilidad?
 
-Manejar la creacion, los informes y la documentacion de un proyecto a partir de una pieza central de informacion
+Manejar la creación, los informes y la documentación de un proyecto a partir de una pieza central de información.\
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/)
 
 ### 2. Fases de Maven
 
 Las fases de Maven son las siguientes:
- 1. Validar: Revisar si toda la información necesaria para el constructor esta disponible
- 2. Compilar: Compilar el codigo base
- 3. Compilar-test: Compilar los test del codigo base
- 4. Test: Compilar pruebas de Unidad
- 5. Package: Paquete del codigo compilado en el formato seleccionado (jar, entre otros)
- 6. Test de Integración: Procesa y despliega el paquetesi necesita correr pruebas de integracion
- 7. Instalación: Instala el paquete en un repositorio local
- 8. Despliegue: Copiar el paquete en un repositorio local
+ 1. Validar: Revisar si toda la información necesaria para el constructor esta disponible.
+ 2. Compilar: Compilar el codigo base.
+ 3. Compilar-test: Compilar los test del codigo base.
+ 4. Test: Compilar pruebas de Unidad.
+ 5. Package: Paquete del codigo compilado en el formato seleccionado (jar, entre otros).
+ 6. Test de Integración: Procesa y despliega el paquetesi necesita correr pruebas de integracion.
+ 7. Instalación: Instala el paquete en un repositorio local.
+ 8. Despliegue: Copiar el paquete en un repositorio local.\
 Fragmento consultado en [BaelDung](https://www.baeldung.com/maven-goals-phases)
-c
+
 
 ### 3. Ciclo de vida de la construcción
 
@@ -29,12 +29,12 @@ Para la persona que crea un proyecto, esto significa que solo es necesario apren
 Hay tres ciclos de vida de compilación integrados: ```default```, ```clean``` y ```site```.
 - **Default:** El ciclo de vida **default** maneja la implementación de su proyecto, gestionando la construcción y despliegue del proyecto.
 - **Clean:** El ciclo de vida **clean** maneja la limpieza del proyecto, eliminando todos los archivos generados en el proceso de construcción y despliegue.
-- **Site:** El ciclo de vida **site** maneja la creación de la documentación del sitio de su proyecto.
+- **Site:** El ciclo de vida **site** maneja la creación de la documentación del sitio de su proyecto.\
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
 ### 4. Para que sirven los plugins en Maven
 
-Es donde se realiza parte de la "acción real", los plugins se utilizan para: crear archivos jar, crear archivos war, compilar código, código de prueba unitaria, crear documentación del proyecto, y así sucesivamente. Casi cualquier acción que pueda pensar en realizar en un proyecto se implementa como un complemento de Maven.
+Es donde se realiza parte de la "acción real", los plugins se utilizan para: crear archivos jar, crear archivos war, compilar código, código de prueba unitaria, crear documentación del proyecto, y así sucesivamente. Casi cualquier acción que pueda pensar en realizar en un proyecto se implementa como un complemento de Maven.\
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-plugins.html#:~:text=In%20other%20words%2C%20plugins%20are,implemented%20as%20a%20Maven%20plugin.)
 
 ### 5. Qué es y para qué sirve el repositorio Maven Central
