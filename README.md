@@ -20,6 +20,7 @@ Las fases de Maven son las siguientes:
  7. Instalación: Instala el paquete en un repositorio local
  8. Despliegue: Copiar el paquete en un repositorio local
 Fragmento consultado en [BaelDung](https://www.baeldung.com/maven-goals-phases)
+c
 
 ### 3. Ciclo de vida de la construcción
 
