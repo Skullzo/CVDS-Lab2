@@ -1,5 +1,4 @@
-# CVDSLab02
-Laboratorio 2 de la materia CVDS
+# Laboratorio 2
 
 ## Preguntas laboratorio
 
@@ -36,7 +35,7 @@ Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/i
 
 ### 4. Para que sirven los plugins en Maven
 
-Es donde se realiza parte de la "acción real", los plugins se utilizan para: crear archivos jar, crear archivos war, compilar código, código de prueba unitaria, crear documentación del proyecto, y así sucesivamente. Casi cualquier acción que pueda pensar en realizar en un proyecto se implementa como un complemento de Maven.\
+Es donde se realiza parte de la "acción real", los plugins se utilizan para: crear archivos jar, crear archivos war, compilar código, código de prueba unitaria, crear documentación del proyecto, y así sucesivamente. Casi cualquier acción que pueda pensar en realizar en un proyecto se implementa como un complemento de Maven.
 
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-plugins.html#:~:text=In%20other%20words%2C%20plugins%20are,implemented%20as%20a%20Maven%20plugin.)
 
