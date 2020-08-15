@@ -5,7 +5,7 @@ Laboratorio 2 de la materia CVDS
 
 ### 1. ¿Cuál es su mayor utilidad?
 
-Manejar la creación, los informes y la documentación de un proyecto a partir de una pieza central de información.\
+Manejar la creación, los informes y la documentación de un proyecto a partir de una pieza central de información.
 
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/)
 
@@ -19,7 +19,7 @@ Las fases de Maven son las siguientes:
  5. Package: Paquete del codigo compilado en el formato seleccionado (jar, entre otros).
  6. Test de Integración: Procesa y despliega el paquetesi necesita correr pruebas de integracion.
  7. Instalación: Instala el paquete en un repositorio local.
- 8. Despliegue: Copiar el paquete en un repositorio local.\
+ 8. Despliegue: Copiar el paquete en un repositorio local.
 
 Fragmento consultado en [BaelDung](https://www.baeldung.com/maven-goals-phases)
 
@@ -30,7 +30,7 @@ Para la persona que crea un proyecto, esto significa que solo es necesario apren
 Hay tres ciclos de vida de compilación integrados: ```default```, ```clean``` y ```site```.
 - **Default:** El ciclo de vida **default** maneja la implementación de su proyecto, gestionando la construcción y despliegue del proyecto.
 - **Clean:** El ciclo de vida **clean** maneja la limpieza del proyecto, eliminando todos los archivos generados en el proceso de construcción y despliegue.
-- **Site:** El ciclo de vida **site** maneja la creación de la documentación del sitio de su proyecto.\
+- **Site:** El ciclo de vida **site** maneja la creación de la documentación del sitio de su proyecto.
 
 Fragmento consultado en [Apache Maven Project](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
