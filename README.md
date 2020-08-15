@@ -48,24 +48,24 @@ En esta imagen creamos el proyecto Maven de forma interactiva, la cual vamos a u
 ```
 mvn archetype:generate
 ```
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PrimeraParteInteractiva.png">
 
 En esta imagen creamos el proyecto Maven con parametros definidos
 ```
 mvn archetype:generate -DgropuId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -Dpackage=edu.eci.cvds.patterns -DinteractiveMode=false
 ```
 
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PrimerParte.PNG">
 
 Y aqui podemos observar el arbol
 
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/Tree.PNG">
 
 ## Ajustar algunas configuraciones en el proyecto
 
 Editamos el archivo en el editor de codigo Visual Studio Code
 
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/Pom.PNG">
 
 ## Compilar y Ejecutar
 
@@ -77,6 +77,35 @@ mvn package
 
 Y obtuvimos el siguiente resultado
 
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
-<img  src="https://github.com/JuanMunozD/CVDS1/blob/master/JuanMunoz/img/7agosto.png">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/CompilarParte1.PNG">
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/CompilarParte2.PNG">
 
+Buscamos cual es el objetivo del parametro package
+
+El objetivo del parámetro package es empaquetar el código compilado en su formato distribuible, como un JAR.
+
+Otros parámetros son: **mvn clean** (Borra todos los .class y .jar generados), **mvn compile** (Compila el proyecto) **mvn site** (Genera documentación html del proyecto) 
+
+**-u** (actualiza las librerías desde el Central)
+
+
+Ejecutamos el codigo con 
+```
+mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App"
+```
+
+Y tuvimos como resultado
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PruebaHelloWorld.PNG">
+
+Después de modificar el App.Java obtuvimos
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PruebaHelloJuan.PNG">
+
+Este es el resultado final del codigo en App.Java
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/CodigoFinalAppJava.PNG">
+
+Para obtener el resultado de nombre y apellido
+
+<img  src="https://github.com/JuanMunozD/CVDSLab02/blob/master/img/PruebaHelloNombreApellido.PNG">
