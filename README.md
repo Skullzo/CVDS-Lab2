@@ -1,6 +1,6 @@
 # Laboratorio 2
 
-## Preguntas del laboratorio.
+## Preguntas del laboratorio
 
 ### 1. ¿Cuál es su mayor utilidad?
 
